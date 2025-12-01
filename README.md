@@ -1,7 +1,5 @@
 # Modelling-Severe-Aortic-Stenosis
 
-# Abstract
-
 Aortic stenosis (AS) is a valvular disease that involves the narrowing of the aortic
 valve, which increases the pressure of the left ventricle, reduces cardiac output, and
 imposes significant strain on the heart. This study utilizes a lumped parameter (0D) model
@@ -17,4 +15,9 @@ significantly increased height, reflecting greater ventricular strain. Compariso
 numerical methods show that RK4 provides smoother and more accurate waveforms than
 Heun’s method for this nonlinear system. Overall, the model successfully isolates the
 hemodynamic consequences of severe aortic stenosis and demonstrates the usefulness of
-simplified computational frameworks for studying valvular disease.
+simplified computational frameworks for studying valvular disease. 
+
+# How to run
+What you'll find is simply a Jupyter notebook with the Python code inside. Simply run each
+cell to simulate healthy and AS. Any parameters can be changed, but if you're looking for 
+different cases of AS, it is recommended that you look at the $A_{Ref}$ and the parameters 
