@@ -20,4 +20,11 @@ simplified computational frameworks for studying valvular disease.
 # How to run
 What you'll find is simply a Jupyter notebook with the Python code inside. Simply run each
 cell to simulate healthy and AS. Any parameters can be changed, but if you're looking for 
-different cases of AS, it is recommended that you look at the $A_{Ref}$ and the parameters 
+different cases of AS, it is recommended that you look at the $A_{Ref}$ variable and any 
+parameters mentioned in Gerarch et al. (2023), as the model is based on their work.
+
+# Link to the paper
+
+Gerach, T., KrauB, J., Schuler, S., & Loewe, A. (2023). Whole Heart Simulation of Severe 
+Aortic Stenosis Using a Lumped Parameter Model of Heart Valve Dynamics. Computing in 
+Cardiology, 50, 1–4. https://doi.org/10.22489/CinC.2023.162
